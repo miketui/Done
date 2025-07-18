@@ -1,0 +1,65 @@
+---
+id: chapter-XX
+section: part-x
+src: src/chapters/chapterXX.md
+out: out/chapterXX.xhtml
+template: chapter-template.xhtml
+page_box_class: body-text
+volume_body: true
+title: "[Insert Chapter Title Here]"
+role: author
+page_description: "[Brief one-sentence description of this chapter.]"
+bible_quote: "[Insert inspirational Bible quote here]"
+image:
+  src: images/chXX-quote.jpg
+  alt: "Quote image for Chapter XX"
+keywords: [keyword1, keyword2, keyword3]
+meta:
+  endnotes_inline: true
+edited_word_count: 0
+---
+
+# [Insert Chapter Title Here]
+
+
+---
+
+## 📄 Chapter Content
+Insert the main instructional narrative here. Use `> blockquotes`, `**bold emphasis**`, or `*italics*` where appropriate.
+
+---
+
+## 🔖 ENDNOTES Section
+- Add any inline or end-of-chapter references.
+- Include optional reflective journal prompts.
+     ENDNOTES end 
+---
+
+
+## 🔢 Quiz Page
+
+1. Question 1 text here
+    - A. Option A
+    - B. Option B
+    - C. Option C
+    - D. Option D
+2. Question 2...
+3.
+4. Question 4
+
+     Quiz page end 
+---
+
+## 🎓 Worksheet Page
+
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Reflection or drawing prompt
+
+Worksheet page end 
+---
+
+## 📷 Image Quote Block
+![Quote image](images/chXX-quote.png)
+
+> _"Inspirational quote or key takeaway here."_
