@@ -148,7 +148,13 @@ def restructure_file(edited_path):
     else:
         new_lines.extend(sections['image_quote'])
 
+codex/ensure-edited-files-follow-markdown-structure
+    output_dir = 'output'
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, os.path.basename(edited_path).replace('_edited.md', '_final.md'))
+
     output_path = edited_path.replace('_edited.md', '_final.md')
+ main
     write_file(output_path, new_lines)
 
 
