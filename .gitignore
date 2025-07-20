@@ -1,0 +1,4 @@
+output/
+setup_output.txt
+ai_context.json
+__pycache__/
